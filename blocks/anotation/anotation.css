@@ -1,0 +1,16 @@
+.anotation {
+    color: #fff;
+    font-size: 27px;
+    font-style: normal;
+    transition: transform 4s ease-in-out 1s;
+    max-width: 420px;
+    }
+    
+    @media screen and (max-width: 800px) {
+        .anotation {
+            font-size: 10px;
+            margin-left: 10%;
+            margin-right: 10%;
+            text-align: center;
+        }
+    }

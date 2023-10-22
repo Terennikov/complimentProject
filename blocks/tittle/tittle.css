@@ -8,3 +8,9 @@
     margin-top: 10px;
     margin-left: 10px;
 }
+@media screen and (max-width: 800px) {
+    .tittle {
+        
+        font-size: 30px;
+       
+}
