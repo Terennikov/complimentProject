@@ -4,7 +4,8 @@ const submitButton = document.querySelector('.button');
 const submitForm = document.querySelector('.form');
 const compliment = document.querySelector('.compliment')
 
-const items = ['Улыбайся чаще, твоя улыбка осветила бы даже Питер']
+const items = [', улыбайся чаще, твоя улыбка осветила бы даже Питер',
+              ', ты не первый блин, но когда ты рядом в горле комом...']
 
 submitForm.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -15,7 +16,7 @@ submitForm.addEventListener('submit', (event) => {
 
 function textMassage() {
   const name = input.value;
-  compliment.textContent = name + ', ты не первый блин, но когда ты рядом в горле комом...';
+  compliment.textContent = name + ', твоё очарование такое яркое, что даже звёзды тобой любуются, не забывай ...';
 
 }
 
